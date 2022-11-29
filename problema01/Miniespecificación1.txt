@@ -1,0 +1,36 @@
+ 1.  Inicio
+
+ 2.  ladoA, d [0,n]
+ 3.  ladoB, d [0,n]
+ 4.  ladoC, d [0,n]
+ 5.  total, d [0,n] 
+
+ 6. << "Ingrese el valor del Lado A: "
+ 7. >> ladoA
+
+ 8. << "Ingrese el valor del Lado B: "
+ 9. >> ladoB
+
+10. << "Ingrese el valor del Lado C: "
+11. >> ladoC
+
+12. total ← ladoA + ladoB + ladoC
+13.  Si total == 180 entonces
+
+14. 	 Si ladoA == 90 or ladoB = 90 or ladoC == 90 entonces
+15.		 << "Es un triángulo rectángulo"
+16.	 Fin Si
+
+17.	 Si ladoA > 90 or ladoB > 90 or ladoC > 90 entonces
+18.		 << "Es un triángulo obtusángulo"
+19.	 Fin Si 
+
+20. 	 Si ladoA < 90 and ladoB <90 and ladoC < 90 entonces
+21.		 << "Es un triángulo acutángulo"
+22.	 Fin Si
+
+23. De lo contrario
+24. 	<< "Error, la suma de los ángulos de un triángulo siempre da 180 grados, pero la suma de los ángulos ingresados es " + total
+25. Fin Si
+
+26. Fin 

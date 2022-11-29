@@ -1,0 +1,9 @@
+1. Inicio
+
+2. Generar un contador que inicie en 2
+3. Generar un ciclo que se mantenga mientras contador sea menor o igual a 100
+4. Generar un acumulador, que inicie en 1 y que vaya acumulando la operacion de, acumulador + 1/contador
+5. Sumar a contador el valor de 1.
+6. Presentar el cálculo
+
+7. Fin

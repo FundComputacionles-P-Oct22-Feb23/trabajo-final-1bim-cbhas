@@ -1,0 +1,52 @@
+ 1.Inicio
+ 
+ 2. nombreEmpleado, x(500) [{A-Z}, {a-z}, {BS}]
+ 3. tipoEmpleado, i [0 - n]
+ 4. horasTrabajadas, d [0, n]
+ 5. cuotaHora, d [0, n]
+ 6. multiplicador, d [0, n] ← 0
+ 7. subtotal, d [0, n]
+ 8. total d [0, n]
+
+ 9. <<"Ingrese el nombre el nombre del empleado:"
+10. >>nombreEmpleado
+
+11. <<"Ingrese el número de horas trabajadas:"
+12. >>horasTrabajadas
+
+13. <<"Ingrese la cuota por hora:"
+14. >>cuotaHora
+
+15. Si horasTrabajadas > 40 entonces
+16.    subtotal ← cuotaHora * 40
+17.    <<"Ingrese el tipo de empleado:")
+18.    >>tipoEmpleado
+19.    horasTrabajadas ← horasTrabajadas - 40
+
+20.    Si tipoEmpleado == 1 entonces
+21.       multiplicador ← 1.5
+22.    Fin Si
+
+23.    Si tipoEmpleado == 2 entonces
+24.       multiplicador ← 2;
+25.    Fin Si
+
+26.    Si tipoEmpleado == 3 entonces
+27.       multiplicador ← 2.5
+28.    Fin Si
+
+29.    Si tipoEmpleado == 4 entonces
+30.       multiplicador ← 3
+31.    Fin Si
+
+32.    multiplicador ← multiplicador * cuotaHora
+33.    multiplicador ← horasTrabajadas * multiplicador
+34.    total ← multiplicador + subtotal
+
+35. De lo contario
+36.    total ← horasTrabajadas * cuotaHora
+37. Fin Si
+       
+38.    <<"El sueldo del empleado: " + nombreEmpleado + "es de: $" + total
+
+39. Fin

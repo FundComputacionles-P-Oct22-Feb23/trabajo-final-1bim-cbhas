@@ -1,0 +1,10 @@
+1. Inicio
+
+2. Pedimos las dos coordenadas x & y.
+3. Si uno de los dos valores, x o y, vale 0, entonces mandamos un mensaje de que la coordenada ya que se encuentra en el valor 0 de la línea x o y
+4. Si x & y son positivos, se encontrará en el primer cuadrante (+,+)
+5. Si x es negativo & y es positivo, se encontrará en el segundo (-,+)
+6. Si x & y son negativos, se encontrará en el tercer cuadrante (-,-)
+7. Si x es positivo & y es negativo, se encontrará en el cuarto (-,+)
+
+8. Fin

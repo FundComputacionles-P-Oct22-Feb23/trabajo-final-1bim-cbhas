@@ -1,0 +1,37 @@
+ 1. Inicio
+
+ 2. num1, d[0,n]
+ 3. num2, d[0,n]
+ 4. num3, d[0,n]
+ 5. mayor, d[0,n]
+
+ 6. << "Ingrese el primer número" 
+ 7. >> num1
+
+ 8. << "Ingrese el segundo número"
+ 9. >> num2
+
+10. << "Ingrese el tercer número"
+11. >> num3
+
+12. Si num 1 == num2 or num1 == num3 or num 2 == num3 entonces
+13. 	<< "Error, los valores están repetidos"
+
+14. De lo contrario
+
+15. 	Si num1 > num2 and num1 > num3 entonces
+16.		mayor <-- num1
+17. 	Fin Si
+
+18. 	Si num2 > num1 and num2 > num3 entonces
+19.		mayor <-- num2
+20. 	Fin Si
+
+
+21. 	Si num3 > num1 and num3 > num2 entonces
+22.		mayor <-- num3
+23. 	Fin Si
+24.	<< "El número más alto, entre los tres es: " + mayor
+25. Fin Si
+
+26. Fin

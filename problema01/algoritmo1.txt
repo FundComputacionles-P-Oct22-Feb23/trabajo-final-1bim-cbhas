@@ -1,0 +1,9 @@
+1. Inicio
+
+2. Pedimos los valores de los 3 ángulos.
+3. Si la suma de los 3 ángulos da más o menos de 180, se presenta un error, ya que la suma de los 3 ángulos siempre da 180.
+4. Si uno de los 3 ángulos ingresados es igual a 90, se lo presenta como triángulo rectángulo.
+5. Si uno de los 3 ángulos ingresados es mayor que 90 y menor que 180, se lo presenta como triángulo obtusángulo.
+6. Si los 3 ángulos son menores a 90, se lo presenta como triángulo acutángulo.
+
+7. Fin

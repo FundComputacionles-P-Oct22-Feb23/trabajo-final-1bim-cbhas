@@ -1,0 +1,9 @@
+1. Inicio
+
+2. Pedimos los 3 números
+3. Comparamos los números entre si, para ver que no se repitan
+4. Si los números se repiten, mandamos un mensaje de error.
+5. Analizamos y comparamos los números enter si, para determinar cual es el mayor.
+6. Presentamos el mayor de todos
+
+7. Fin

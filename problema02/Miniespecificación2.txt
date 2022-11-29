@@ -1,0 +1,39 @@
+ 1. Inicio
+
+ 2. cantidad, i[0,n]
+ 3. precioU , d[0,n]
+ 4. subtotal, d[0,n]
+ 5. descuento, d[0,n]
+ 6. total, d[0,n]
+
+ 7. << "Ingrese la cantidad de trajes que va a comprar" 
+ 8. >> cantidad
+
+ 9. << "Ingrese el precio unitario del traje"
+10. >> precioU
+
+11. subtotal ← cantidad * precioU
+
+12. Si cantidad == 1 entonces
+13.	descuento ← 20
+14. Fin Si
+
+15. Si cantidad == 2 entonces
+16.	descuento ← 25
+17. Fin Si
+
+18. Si cantidad == 3 entonces
+19.	descuento ← 40
+20. Fin Si
+
+21. Si cantidad > 3 entonces
+22.	descuento ← 50
+23. Fin Si
+
+24. descuento ← (subtotal * descuento) / 100
+25. total ← subtotal - descuento
+
+26. << "Subtotal: " + subtotal "\n" + "Descuento: " + descuento + "\n" + "Total: " + total + "\n"
+
+27. Fin
+
