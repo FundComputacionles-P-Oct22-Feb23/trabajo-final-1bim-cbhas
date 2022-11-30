@@ -1,0 +1,6 @@
+1. Inicio
+2. Preguntamos los números.
+3. Vamos acumulando la suma de los datos.
+4. Se preguntan números, mientras el usuario así lo decida
+5. Si el usuario decide parar, finalmente dividimos la suma acumulada para el número de datos que ingresó el usuario.
+6. Fin
