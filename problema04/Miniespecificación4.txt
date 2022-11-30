@@ -14,7 +14,7 @@
 10. << "Ingrese el tercer número"
 11. >> num3
 
-12. Si num 1 == num2 or num1 == num3 or num 2 == num3 entonces
+12. Si num1 == num2 or num1 == num3 or num2 == num3 entonces
 13. 	<< "Error, los valores están repetidos"
 
 14. De lo contrario
