@@ -1,6 +1,13 @@
-1. Inicio
-2. Preguntamos los números.
-3. Vamos acumulando la suma de los datos.
-4. Se preguntan números, mientras el usuario así lo decida
-5. Si el usuario decide parar, finalmente dividimos la suma acumulada para el número de datos que ingresó el usuario.
-6. Fin
+ 1. Inicio
+
+ 2. Pedir que ingrese un número cualquiera.
+ 3. Guardar dato.
+ 4. Guardar en un variable llamada sumaNumeros y hacer que valga sumaNumeros ← sumaNumeros + datos.
+ 5. Pregutnar al usurio si quiere detener el proceso.
+ 6. Guardar opcion.
+ 7. Hacer que contador ← contador + 1.
+ 8. Hacer un bandera para detener el ciclo dependiendo del cliente.
+ 9. Sacar la media con todos los valores que el usuario ingresó, mediante esta fórmula, media ← sumaNumeros / contador
+10. Presentar en pantalla "La media de todos los números ingresados es: " + media
+
+11. Fin

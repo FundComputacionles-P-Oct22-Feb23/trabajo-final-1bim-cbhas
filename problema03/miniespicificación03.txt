@@ -19,7 +19,7 @@
 
 15. Si horasTrabajadas > 40 entonces
 16.    subtotal ← cuotaHora * 40
-17.    <<"Ingrese el tipo de empleado:")
+17.    <<"Ingrese el tipo de empleado:"
 18.    >>tipoEmpleado
 19.    horasTrabajadas ← horasTrabajadas - 40
 
@@ -28,7 +28,7 @@
 22.    Fin Si
 
 23.    Si tipoEmpleado == 2 entonces
-24.       multiplicador ← 2;
+24.       multiplicador ← 2
 25.    Fin Si
 
 26.    Si tipoEmpleado == 3 entonces
