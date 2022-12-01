@@ -25,7 +25,7 @@
 18.		 << "Es un triángulo obtusángulo"
 19.	 Fin Si 
 
-20. 	 Si ladoA < 90 and ladoB <90 and ladoC < 90 entonces
+20. 	 Si ladoA < 90 and ladoB < 90 and ladoC < 90 entonces
 21.		 << "Es un triángulo acutángulo"
 22.	 Fin Si
 

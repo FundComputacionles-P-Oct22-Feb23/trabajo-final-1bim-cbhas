@@ -5,10 +5,10 @@
  4. horasTrabajadas, d [0, n]
  5. cuotaHora, d [0, n]
  6. multiplicador, d [0, n] ← 0
- 7. subtotal, d [0, n]
+ 7. subtotal, d [0, n] 
  8. total d [0, n]
 
- 9. <<"Ingrese el nombre el nombre del empleado:"
+ 9. <<"Ingrese el nombre del empleado:"
 10. >>nombreEmpleado
 
 11. <<"Ingrese el número de horas trabajadas:"
@@ -19,8 +19,10 @@
 
 15. Si horasTrabajadas > 40 entonces
 16.    subtotal ← cuotaHora * 40
+
 17.    <<"Ingrese el tipo de empleado:"
 18.    >>tipoEmpleado
+
 19.    horasTrabajadas ← horasTrabajadas - 40
 
 20.    Si tipoEmpleado == 1 entonces

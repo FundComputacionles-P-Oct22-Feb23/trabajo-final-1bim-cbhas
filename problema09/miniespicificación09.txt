@@ -2,7 +2,7 @@
  
  2. mensaje, x(500) [{A-Z}, {a-z}, {BS}] ← ""
  3. opcion, d [0 - n]
- 4. tablaPositiva, d [0, n] ← 12
+ 4. tablaPositiva, d [0, n] ← 12 
  5. tablaNegativa, d [0, n] ← 11
  6. contador, d [0 - n] ← 1
  7. termino1, d [0 - n] ← 0
@@ -15,15 +15,16 @@
 
 10.          Si contador MOD 2 == 0 entonces
 11.             termino1 ← termino1 + tablaNegativa
-12.             mensaje ← mensaje + termino1
+12.             mensaje ← mensaje + " -" + termino1
 
 13.          De lo contrario
 14.             termino2 ← termino2 + tablaPositiva
-15.             mensaje ← mensaje + termino2
+15.             mensaje ← mensaje + " +" + termino2
 
 16.          Fin Si
 
 17. contador ← contador + 1
+
 18. Fien Mientras
 19. <<mensaje
 

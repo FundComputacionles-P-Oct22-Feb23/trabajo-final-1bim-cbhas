@@ -1,20 +1,24 @@
-1.  Inicio
+ 1. Inicio
 
-2.  metros, i[0,n]
-3.  contador, i[0.n] ← 1
-5.  yardas, d[0,n]
-6.  pulgadas, d[0,n]
-7.  pies, d[0,n]
-8.  mensaje, x(1000)[{a-z},{A-Z},{0-9},{BS}] ← ""
+ 2. metros, i[0,n]
+ 3. contador, i[0.n] ← 1
+ 4. yardas, d[0,n]
+ 5. pulgadas, d[0,n]
+ 6. pies, d[0,n] 
+ 7. mensaje, x(1000)[{a-z},{A-Z},{0-9},{BS}] ← ""
+
+ 8. <<"Ingrese el número de metros"
+ 9. >>metros
 
 10. Mientras contador <= metros entonces
-11. 	yardas ← contador * 1.093613298
-12.	pulgadas ← contador * 39.37
-13.	pies ← contador * 3.2808
-14.	mensaje ← mensaje + contador"\t" + yardas + "\t" + pulgadas "\t" + pies + "\n"
-15.	contador ← contador + 1
+11. 	     yardas ← contador * 1.093613298
+12.	     pulgadas ← contador * 39.37
+13.	     pies ← contador * 3.2808
+14.	     mensaje ← mensaje + contador"\t" + yardas + "\t" + pulgadas "\t" + pies + "\n"
+15.	     contador ← contador + 1
 16. Fin Mientras
-17. << "Metros "\t" Yardas "\t" pulgadas "\t" pies"
+
+17. <<"Metros "\t" Yardas "\t" Pulgadas "\t" Pies"
 18. << mensaje
 
 19. Fin

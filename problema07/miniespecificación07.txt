@@ -4,18 +4,18 @@
  3. suma, i[0,n] ← 0
 
  4. << "Ingrese el número"
- 5. >> numero
+ 5. >> numero 
 
  6. Si numero MOD 2 == 0 entonces
  7.    Si numero >= 2 entonces 
  8. 		 Mientras numero != 0 entonces
- 9. 			 suma ← suma + numero
-10.			 numero ← numero - 2		 
+ 9. 			  suma ← suma + numero
+10.			  numero ← numero - 2		 
 11. 		 Fin Mientras
-12.	 << suma
-13.	 De lo contrario
-14.		 <<"Su número es menor a 2, por lo tanto no se puede realizar la operación"
-15.	 Fin Si
+12.    <<suma
+13.    De lo contrario
+14.	  <<"Su número es menor a 2, por lo tanto no se puede realizar la operación"
+15.    Fin Si
 16. De lo contrario
 
 17. << "Tu número no es par"

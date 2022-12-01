@@ -5,7 +5,7 @@
  4. num3, d[0,n]
  5. mayor, d[0,n]
 
- 6. << "Ingrese el primer número" 
+ 6. << "Ingrese el primer número"  
  7. >> num1
 
  8. << "Ingrese el segundo número"
@@ -27,10 +27,10 @@
 19.		mayor <-- num2
 20. 	Fin Si
 
-
 21. 	Si num3 > num1 and num3 > num2 entonces
 22.		mayor <-- num3
 23. 	Fin Si
+
 24.	<< "El número más alto, entre los tres es: " + mayor
 25. Fin Si
 

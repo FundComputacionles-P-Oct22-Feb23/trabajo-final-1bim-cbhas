@@ -3,7 +3,7 @@
  2. abcisa, d[0,n]
  3. ordenada, d[0,n]
  4. cuadrante, x(100)[{a-z},{A-Z}] ← ""
-
+ 
 
  5. << "Ingrese el valor de x o de la abcisa" 
  6. >> abcisa
@@ -11,14 +11,10 @@
  7. << "Ingrese el valor de y o de la ordenada"
  8. >> ordenada
 
-
-
  9. Si abcisa == 0 or ordenada == 0 entonces
-
 10. 	<< "La coordenada no se encuentra en ningun cuadrante ya que se encuentran en las coordenadas 0 de la línea y o de la línea x "
 
 11. De lo contrario
-
 12. 	Si abcisa > 0 and ordenada > 0 entonces
 13.		cuadrante ← "Se encuentra en el primer cuadrante (+, +)"
 14. 	Fin Si
@@ -32,7 +28,7 @@
 20. 	Fin Si
 
 21. 	Si abcisa > 0 and ordenada < 0 entonces
-22.		cuadrante ← "Se encuentra en el cuadrante cuadrante (+, -)"
+22.		cuadrante ← "Se encuentra en el cuarto cuadrante (+, -)"
 23. 	Fin Si
 
 24.	<< cuadrante

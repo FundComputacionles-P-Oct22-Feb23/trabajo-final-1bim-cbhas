@@ -5,15 +5,17 @@
  4. sumaNumeros, d [0 - n] ← 0
  5. media, d [0 - n]
  6. opcion, x(500) [{A-Z}, {a-z}, {1-100}] ← ""
- 7. bandera, l ← true 
+ 7. bandera, l ← true  
 
  8. Mientras (bandera) entonces
  9. 	     <<"Ingrese un número cualquiera: "
 10. 	     >>datos
+
 11.	     sumaNumeros ← sumaNumeros + datos	
 
 12. 	     <<"Digite s para dejar de introducir números: "
 13. 	     >>opcion
+
 14. 	     contador ← contador + 1
 
 15.          Si opcion == "s"

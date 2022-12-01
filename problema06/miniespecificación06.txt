@@ -1,12 +1,12 @@
-1.  Inicio
+ 1. Inicio
 
-2.  contador, d[0,n] ← 2
-3.  acumulador, d[0,n] ← 1
+ 2. contador, d[0,n] ← 2
+ 3. acumulador, d[0,n] ← 1
 	
-4. Mientras contador <= 100 entonces
-5. 	acumulador ← acumulador + 1 / contador
-6. 	contador ← contador +1
-7. Fin Mientras
-8. << acumulador
+ 4. Mientras contador <= 100 entonces
+ 5. 	     acumulador ← acumulador + 1 / contador 
+ 6. 	     contador ← contador +1
+ 7. Fin Mientras
+ 8. <<acumulador
 
-9. Fin
+ 9. Fin
